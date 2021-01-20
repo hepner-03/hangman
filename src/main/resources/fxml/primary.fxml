@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="456.0" prefWidth="483.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hepner.FXMLController">
+<AnchorPane id="AnchorPane" prefHeight="456.0" prefWidth="483.0" styleClass="round-red" stylesheets="@../styles/Styles.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hepner.FXMLController">
    <children>
-      <Label fx:id="lblOut" alignment="CENTER" layoutX="100.0" layoutY="31.0" prefHeight="57.0" prefWidth="284.0" textAlignment="CENTER">
+      <Label fx:id="lblOut" alignment="CENTER" layoutX="100.0" layoutY="31.0" prefHeight="57.0" prefWidth="284.0" styleClass="lion" textAlignment="CENTER">
          <font>
             <Font size="23.0" />
          </font>
@@ -20,17 +20,17 @@
             <Image url="@../Images/hang0.gif" />
          </image>
       </ImageView>
-      <TextField fx:id="txtInput" disable="true" layoutX="213.0" layoutY="351.0" prefHeight="50.0" prefWidth="59.0">
+      <TextField fx:id="txtInput" disable="true" layoutX="240.0" layoutY="355.0" prefHeight="50.0" prefWidth="59.0" styleClass="lion">
          <font>
             <Font size="23.0" />
          </font>
       </TextField>
-      <Button fx:id="btnGuess" disable="true" layoutX="115.0" layoutY="351.0" mnemonicParsing="false" onAction="#btnGuessAction" text="Guess:">
+      <Button fx:id="btnGuess" disable="true" layoutX="115.0" layoutY="351.0" mnemonicParsing="false" onAction="#btnGuessAction" styleClass="rich-blue" text="Guess:">
          <font>
             <Font size="23.0" />
          </font>
       </Button>
-      <Button fx:id="btnStart" layoutX="2.0" layoutY="120.0" mnemonicParsing="false" onAction="#btnStartAction" prefHeight="151.0" prefWidth="476.0" text="Start The Game">
+      <Button fx:id="btnStart" layoutX="2.0" layoutY="120.0" mnemonicParsing="false" onAction="#btnStartAction" prefHeight="151.0" prefWidth="476.0" styleClass="ipad-grey" text="Start The Game">
          <font>
             <Font size="56.0" />
          </font>
